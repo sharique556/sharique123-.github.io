@@ -1,0 +1,283 @@
+body{
+      margin: 0;
+      padding: 0;
+      background: url(xyz.jpg);
+      background-size: cover ;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: sans-serif;
+      padding-top : 550px ;
+      background-color: none ;
+
+}
+
+header{
+        background: none;
+        padding-top:30px;
+        min-height:70px;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:15px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 8px 0 8px;
+}
+
+
+header #branding h1{
+  margin:0;
+  font-style: normal;
+  font-size: 50px;
+  position: absolute ;
+  top:20px;
+  left:15px;
+  width: 2000px;
+}
+header #branding h2{
+  margin:0;
+  font-style: normal;
+  font-size: 20px;
+  position: absolute ;
+  top:80px;
+  left:15px;
+  width: 1500px;
+}
+
+header nav{
+
+  position: absolute;
+  top: 0px ;
+  right : 15px;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#000094;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#000094;
+  font-weight:bold;
+}
+
+.container_notice{
+  position: absolute;
+  background:#000094;
+  color : white ;
+  left: 15px;
+  top: 150px;
+  box-sizing:content-box;
+  padding: 0.001px 30px 5px 3px;
+}
+
+
+/* login_faculty*/
+.submit_login{
+  position: relative;
+}
+
+
+
+
+
+/* login_stduent.html */
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background:#000094;
+    color: #F0F8FF;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    top : 350px ;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.loginbox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #B0E0E6 ;
+    text-align: center;
+    font-size: 22px ;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: bold ;
+    height: 50px ;
+
+}
+
+
+.loginbox input[type="email"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+    width : 100% ;
+}
+
+.loginbox p,input[type=email],input[type=password],.submitbox input[type=button]
+{
+  line-height: 55px ;
+}
+
+#submit
+{
+  font-weight: bold ;
+  background-color: #FFCC66;
+  text-transform: : solid;
+  color : black ;
+  border: none;
+  border-radius: 2.5px;
+  cursor: pointer;
+  position: fixed ;
+  padding-top: 10px;
+  padding-right: 18px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  width : 80% ;
+
+}
+.message p
+{
+  font-weight: bold ;
+  color: white;
+  position:relative;
+  padding-top: 90px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  padding-left:fixed;
+
+}
+
+.message a{
+  color: white;
+
+}
+.message a:hover {
+  background-color: blue;
+}
+
+
+/* sign up form of studenta*/
+
+#signupform{
+    width: 280px;
+    height: 500px;
+    background:#000094;
+    color: #F0F8FF;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    left: 650px;
+    top: 400px;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 5px 15px;
+}
+
+#signupform h1{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #B0E0E6 ;
+    text-align: center;
+    font-size: 30px ;
+}
+
+#signupform input[type="text"],input[type="email"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+    width : 100% ;
+}
+
+.submit {
+ font-weight: bold ;
+ width:100% ;
+ background-color:#FFCC66;
+ text-transform: : solid;
+ height:30px;
+ border:none;
+ border-radius: 2.5px;
+}
+/*table for courses*/
+.table-bordered{
+
+}
+
+
+
+/* Feedback form*/
+.container_feedback{
+  width: 280px;
+  height: 500px;
+  background:#000094;
+  color: #F0F8FF;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  left: 650px;
+  top: 400px;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 5px 15px;
+}
+
+#name,#email{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background:transparent;
+  height: 15px;
+  color: #fff;
+  font-size: 16px;
+  width : 100% ;
+  }
+#submit input[type="submit"]{
+  color: black ;
+  background-color: grey ;
+  border-style: solid;
+  border-color: black ;
+  position: absolute;
+  left:35%;
+}
+
+/*courses tables */
+.table_container{
+  background-color: grey ;
+  position: absolute;
+  top: 150px ;
+}
+
+
+/*footer conatiner*/
+.footer_class{
+  background-color: grey ;
+  padding-top: 10px;
+  padding-bottom: 8px ;
+}
+
+.footer_class p{
+   padding-left: 45% ;
